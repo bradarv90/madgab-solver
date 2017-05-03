@@ -1,0 +1,9 @@
+version: '2'
+services:
+
+  app:
+    image: dataquestio/python3-starter
+    ports:
+      - 8888:8888
+    volumes:
+      - .:/home/ds/notebooks
